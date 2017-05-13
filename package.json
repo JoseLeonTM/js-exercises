@@ -1,0 +1,26 @@
+{
+  "name": "html-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseLeonTM/html-css-exercises.git"
+  },
+  "author": "Jose Leon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseLeonTM/html-css-exercises/issues"
+  },
+  "homepage": "https://github.com/JoseLeonTM/html-css-exercises#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
