@@ -1,41 +1,26 @@
-import { alphabetic } from './songs';
-
-// interface list{
-//     A: Array<string>,
-//     B: Array<string>
-// }
-console.log(alphabetic);
-var songs : any = alphabetic;
-
-var songs = {
+(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.alphabetic = {
     A: [
         "And Justice For All - Metallica",
         "And the World Laughs With You - Flying Lotus",
         "As the Crow Flies - Newsted",
         "A Bachelor Gay - Various",
-        "A Balloon On A Broken String - The Boy Least Likely To",
         "A Baltimore Love Thing - 50 Cent",
-        "A Beautiful Day - India.Arie",
         "A Beautiful Exit - Miguel",
         "A Beautiful Lie - 30 Seconds to Mars",
         "A Beautiful Life - William Golden",
         "A Beautiful Mess - Jason Mraz",
         "A Beautiful Morning - The Rascals",
         "A Beginner's Guide to Destroying the Moon - Foster the People",
-        "A Better Place, A Better Time - Streetlight Manifesto",
-        "A Better Tomorrow - Wu-Tang Clan",
-        "A Billion Balconies Facing the Sun - Manic Street Preachers",
-        "A Billion Girls - Elyar Fox",
-        "A Bitch Iz A Bitch - N.W.A",
         "A Blacksmith Courted Me - Traditional",
         "A Boat Lies Waiting - David Gilmour",
         "A Box Full Of Sharp Objects - The Used",
         "A Boy And His Machine Gun - Matthew Good",
-        "A Boy Brushed Red... Living In Black And White - Underoath",
         "A Boy Named Sue - Johnny Cash",
         "A Boy Needs A Bike - Jewel",
         "A Bridge Over You - The Lewisham and Greenwich NHS Choir",
-        "A Brighter Day - The Doobie Brothers",
         "A Buncha Girls - Frankie Ballard",
         "A Case for Shame - Moby",
         "A Case Of You - Joni Mitchell",
@@ -43,7 +28,6 @@ var songs = {
         "A Certain Light - Josh Ritter",
         "A Certain Shade Of Green - Incubus",
         "A Change Is Gonna Come - Sam Cooke",
-        "A Change of Heart - The 1975",
         "A Change Of Seasons - Dream Theater",
         "A Change Would Do You Good - Sheryl Crow",
         "A Child of God (It's Hard to Believe) - Millie Jackson",
@@ -51,7 +35,6 @@ var songs = {
         "A Christmas Duel - The Hives and Cyndi Lauper",
         "A Cinderella Story - Mudvayne",
         "A Cloak of Elvenkind - Marcy Playground",
-        "A Cloud of Mystery - Maxïmo Park",
         "A Commotion - Feist",
         "A Country Called Home - Ryan Bingham",
         "A Couple of Forevers - Chrisette Michele",
@@ -74,8 +57,6 @@ var songs = {
         "A Dustland Fairytale - The Killers",
         "A Face to Call Home - John Mayer",
         "A Farewell to Kings - Rush",
-        "A Father's Love (The Only Way He Knew How) - Bucky Covington",
-        "A Feather's Not A Bird - Rosanne Cash",
         "A Few Words in Defence of Our Country - Randy Newman",
         "A Fifth Of Beethoven - Walter Murphy",
         "A Film for the Future - Idlewild",
@@ -420,20 +401,27 @@ var songs = {
         "Dance With My Father - Luther Vandross",
         "Dance With The Devil - Breaking Benjamin"
     ]
+    // E:[],
+    // F:[],
+    // G:[],
+    // H:[],
+    // I:[],
+    // J:[],
+    // K:[],
+    // L:[],
+    // M:[],
+    // N:[],
+    // O:[],
+    // P:[],
+    // Q:[],
+    // R:[],
+    // S:[],
+    // T:[],
+    // U:[],
+    // V:[],
+    // X:[],
+    // Y:[],
+    // Z:[]
 };
-var container = document.createElement('div');
-for(let letter in songs){
-    let header = document.createElement('h2');
-    header.id=letter;
-    header.innerText=letter;
-    let songList = document.createElement('ul');
-    for(let i=0; i<songs[letter].length;i++){
-        let song = document.createElement('li');
-        song.innerText=songs[letter][i];
-        songList.appendChild(song);
-    }
-    container.appendChild(header);
-    container.appendChild(songList);
-}
-var body = document.getElementsByTagName('body')[0];
-body.appendChild(container);
+
+},{}]},{},[1])

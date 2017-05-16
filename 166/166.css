@@ -1,0 +1,28 @@
+body {
+  width: 90%;
+  margin: 10px auto;
+  border: 1px solid gray;
+  border-radius: 40px; }
+
+h1 {
+  color: green;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  margin: 0; }
+
+div h2 {
+  margin: 0;
+  font-size: 40px;
+  background-color: grey;
+  color: white;
+  padding: 20px; }
+
+div ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  div ul li {
+    border-bottom: 1px solid black;
+    padding: 15px; }
+    div ul li:hover {
+      background-color: #a6a6a6; }

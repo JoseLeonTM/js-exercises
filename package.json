@@ -21,6 +21,7 @@
   "homepage": "https://github.com/JoseLeonTM/js-exercises#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
     "gulp-sass": "^3.1.0",
     "gulp-typescript": "^3.1.6",
     "typescript": "^2.3.2"
