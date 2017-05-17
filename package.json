@@ -25,5 +25,8 @@
     "gulp-sass": "^3.1.0",
     "gulp-typescript": "^3.1.6",
     "typescript": "^2.3.2"
+  },
+  "dependencies": {
+    "word-list-json": "^0.2.0"
   }
 }
