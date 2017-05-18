@@ -1,22 +1,10 @@
 
-var fibonacci = (function(){
-    var sequence : number[]= [1,1];
-
-    return function(n : number) : number{
-        n--;
-        if(n>0) {
-            if (sequence[n]) {
-                return sequence[n];
-            }
-            while (sequence.length < (n+1)){
-                sequence.push(sequence.slice(-2,-1)[0]+sequence.slice(-1)[0]);
-            }
-            return sequence[n];
-        }
+var arr = [1,13,65,3,7,96,46,100,32];
+function max(arr : number[]) : number{
+    let big : number=0;
+    for(let i =0; i<arr.length;i++){
+        big = Math.max(big,arr[i]);
     }
-})();
-console.log("Result: "+fibonacci(3));//2
-console.log("Result: "+fibonacci(5));//5
-console.log("Result: "+fibonacci(10));//55
-console.log("Result: "+fibonacci(8));//21
-console.log("Result: "+fibonacci(7));//13
+    return big;
+}
+console.log(max(arr));
