@@ -1,8 +1,6 @@
 
-
 String.prototype.reverse=reverse;
 String.prototype.reverseWords=reverseWords;
-
 var button = document.getElementById('reverse');
 var button2 = document.getElementById('reverseWords');
 var input = document.getElementsByTagName('input')[0];

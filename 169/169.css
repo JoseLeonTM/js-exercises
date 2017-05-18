@@ -1,28 +1,44 @@
 body {
   background-color: #0d0d0d;
   width: 90%;
+  font-family: Arial;
   box-shadow: 0 0 10px black;
   margin: 10px auto;
-  padding: 0;
-  position: relative; }
+  display: flex;
+  flex-wrap: wrap; }
   body div {
     width: 50%;
     box-sizing: border-box;
-    display: inline-block;
+    flex-grow: 1;
     height: 300px;
     margin: 0; }
 
 #left {
-  background-color: blue; }
+  background-color: #9990ee; }
   #left * {
     display: inline-block;
     height: 30px;
     border-radius: 10px;
     margin: 10px; }
+  #left input {
+    font-size: 26px;
+    width: 200px; }
   #left button {
-    border: 2px solid white; }
+    border: 2px solid #ef474e;
+    background-color: white;
+    width: 150px; }
+    #left button:hover {
+      color: white;
+      background-color: #ef474e;
+      border-color: white; }
 
 #right {
-  background-color: red; }
+  background-color: #ef474e; }
   #right p {
-    font-size: 30px; }
+    font-size: 30px;
+    margin: 20px;
+    height: 30px;
+    background-color: #0d0d0d;
+    color: white;
+    padding: 10px;
+    border-radius: 10px; }
