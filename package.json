@@ -27,6 +27,7 @@
     "typescript": "^2.3.2"
   },
   "dependencies": {
+    "mustache": "^2.3.0",
     "word-list-json": "^0.2.0"
   }
 }

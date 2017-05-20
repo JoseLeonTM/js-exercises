@@ -1,0 +1,51 @@
+body,html{
+  height:90%;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family:Arial;
+}
+h1{
+  margin:50px;
+  font-family: "Bodoni MT";
+  font-style: italic;
+  font-size: 60px;
+}
+#bg{
+  position:absolute;
+  height:100%;
+  width:100%;
+  top:0;
+  background-color: rgba(0, 0, 0, 0.51);
+}
+#dialog{
+  position:relative;
+  top:30%;
+  width:40%;
+  padding:20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  margin: auto;
+  background-color: white;
+  line-height: 30px;
+  label{
+    display:inline-block;
+    width: 100px;
+  }
+  input{
+    display:inline-block;
+    margin: 0 10px;
+  }
+  button{
+    margin: 10px;
+    background-color: #7150ff;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    height:30px;
+    width:100px;
+    &:hover{
+      background-color: #6344d1;
+    }
+  }
+}
