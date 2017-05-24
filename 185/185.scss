@@ -1,0 +1,55 @@
+body{
+  width:90%;
+  background-color: red;
+  margin:40px auto;
+  box-shadow: 0 0 20px black;
+  color:white;
+  font-size: 20px;
+  //position:relative;
+}
+div{
+  padding:10px;
+  opacity:1;
+  background-color: #b48fff;
+  transition: opacity 0.5s, height 0.5s;
+  form{
+    border:5px double #5044bd;
+    padding:10px;
+    position:relative;
+    label{
+      display: inline-block;
+    }
+    input,select{
+      margin:10px;
+      display: block;
+    }
+    input{
+      border-radius: 5px;
+    }
+    select{
+      width: 100px;
+    }
+    button{
+      background-color: #ddc1ff;
+      color: #5044bd;
+      font-weight: bold;
+      box-shadow: 2px 2px 5px #414141;
+      position:absolute;
+      border:none;
+      right:10px;
+      bottom:10px;
+      width:80px;
+      height:30px;
+      &:hover{
+        background-color: #ecdfff;
+      }
+      &:active{
+        color:white;
+        background-color: #5044bd;
+      }
+    }
+  }
+}
+.hide{
+  display:none;
+}

@@ -1,0 +1,45 @@
+body {
+  width: 90%;
+  background-color: red;
+  margin: 40px auto;
+  box-shadow: 0 0 20px black;
+  color: white;
+  font-size: 20px; }
+
+div {
+  padding: 10px;
+  opacity: 1;
+  background-color: #b48fff;
+  transition: opacity 0.5s, height 0.5s; }
+  div form {
+    border: 5px double #5044bd;
+    padding: 10px;
+    position: relative; }
+    div form label {
+      display: inline-block; }
+    div form input, div form select {
+      margin: 10px;
+      display: block; }
+    div form input {
+      border-radius: 5px; }
+    div form select {
+      width: 100px; }
+    div form button {
+      background-color: #ddc1ff;
+      color: #5044bd;
+      font-weight: bold;
+      box-shadow: 2px 2px 5px #414141;
+      position: absolute;
+      border: none;
+      right: 10px;
+      bottom: 10px;
+      width: 80px;
+      height: 30px; }
+      div form button:hover {
+        background-color: #ecdfff; }
+      div form button:active {
+        color: white;
+        background-color: #5044bd; }
+
+.hide {
+  display: none; }
