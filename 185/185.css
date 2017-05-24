@@ -1,19 +1,30 @@
+html {
+  height: 100%;
+  background-color: red; }
+
 body {
   width: 90%;
-  background-color: red;
+  height: 80%;
+  background-color: #b48fff;
   margin: 40px auto;
   box-shadow: 0 0 20px black;
   color: white;
-  font-size: 20px; }
+  font-size: 20px;
+  font-family: Arial;
+  position: relative; }
 
 div {
   padding: 10px;
   opacity: 1;
-  background-color: #b48fff;
-  transition: opacity 0.5s, height 0.5s; }
+  transition: opacity 0.5s;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box; }
   div form {
-    border: 5px double #5044bd;
-    padding: 10px;
+    border: 7px double #5044bd;
+    padding: 15px;
+    height: 90%;
     position: relative; }
     div form label {
       display: inline-block; }
@@ -42,4 +53,4 @@ div {
         background-color: #5044bd; }
 
 .hide {
-  display: none; }
+  opacity: 0; }

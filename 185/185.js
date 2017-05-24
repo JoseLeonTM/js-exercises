@@ -8,7 +8,8 @@ for (let i = 0; i < forms.length; i++) {
     form.appendChild(btn);
     if (i > 0) {
         forms[i].className = 'hide';
-        forms[i].style.opacity = '0';
+        // forms[i].style.zIndex='-'+i;
+        forms[i].style.visibility = 'hidden';
     }
     if (i < forms.length - 1) {
         btn.type = 'button';
@@ -18,13 +19,11 @@ for (let i = 0; i < forms.length; i++) {
 var nextForm = 1;
 function next(ev) {
     var form = ev.target.parentNode.parentNode;
-    form.style.opacity = '0';
+    // form.style.opacity='0';
+    form.className = 'hide';
+    forms[nextForm].style.visibility = "visible";
     setTimeout(function () {
-        form.className = 'hide';
-        forms[nextForm].className = '';
-        forms[nextForm++].style.opacity = '1';
-    }, 500);
-    // setTimeout(function(){
-    //     forms[nextForm++].className='';
-    // },500);
+        forms[nextForm++].className = '';
+        // forms[nextForm++].style.opacity='1';
+    }, 250);
 }
