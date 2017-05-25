@@ -1,0 +1,39 @@
+html {
+  background-color: black; }
+
+body {
+  width: 90%;
+  margin: 10px auto;
+  font-size: 20px; }
+
+#container {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color: #181818; }
+  #container button {
+    border: none;
+    background-color: #d8d627;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold; }
+    #container button:hover {
+      background-color: yellow;
+      cursor: pointer; }
+  #container article {
+    padding: 15px;
+    width: 90%;
+    margin: 10px auto;
+    border: 1px groove white; }
+    #container article h3 {
+      color: #d8d627;
+      font-size: 26px;
+      margin: 5px; }
+    #container article p {
+      font-family: Arial;
+      width: 90%;
+      margin: auto; }
+    #container article:hover {
+      background-color: black; }

@@ -1,0 +1,46 @@
+html{
+  background-color: black;
+}
+body{
+  width:90%;
+  margin:10px auto;
+  font-size: 20px;
+}
+#container{
+  width:100%;
+  padding:10px;
+  color:white;
+  background-color: #181818;
+  button{
+    border:none;
+    background-color: #d8d627;
+    border-radius: 5px;
+    margin:20px;
+    padding:10px;
+    font-size: 20px;
+    font-weight: bold;
+    &:hover{
+      background-color: yellow;
+      cursor:pointer;
+    }
+  }
+  article{
+    padding:15px;
+    width:90%;
+    margin:10px auto;
+    border:1px groove white;
+    h3{
+      color:#d8d627;
+      font-size: 26px;
+      margin:5px;
+    }
+    p{
+      font-family: Arial;
+      width:90%;
+      margin:auto;
+    }
+    &:hover{
+      background-color:black;
+    }
+  }
+}
