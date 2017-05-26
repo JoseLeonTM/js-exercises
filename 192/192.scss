@@ -28,15 +28,17 @@ body{
 }
 #list{
   border:1px solid #c9c9c9;
-  display:flex;
+  border-bottom:none;
   font-size: 20px;
-  flex-grow: 1;
   div{
     border-bottom:1px solid #b0b0b0;
     margin:5px;
+    display:flex;
     span{
       margin:10px;
-      padding: 0 20px;
+      width:150px;
+      flex-grow: 1;
+      //padding: 0 20px;
       text-align: center;
       &:not(:last-child){
         border-right: 1px solid #b0b0b0;

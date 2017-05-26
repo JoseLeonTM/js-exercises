@@ -24,15 +24,16 @@ body {
 
 #list {
   border: 1px solid #c9c9c9;
-  display: flex;
-  font-size: 20px;
-  flex-grow: 1; }
+  border-bottom: none;
+  font-size: 20px; }
   #list div {
     border-bottom: 1px solid #b0b0b0;
-    margin: 5px; }
+    margin: 5px;
+    display: flex; }
     #list div span {
       margin: 10px;
-      padding: 0 20px;
+      width: 150px;
+      flex-grow: 1;
       text-align: center; }
       #list div span:not(:last-child) {
         border-right: 1px solid #b0b0b0; }
