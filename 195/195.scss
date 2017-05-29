@@ -2,8 +2,8 @@
 body{
   width:90%;
   margin:30px auto;
-  border-top:2px solid blue;
-  border-bottom:2px solid blue;
+  border-top:2px solid red;
+  border-bottom:2px solid red;
   font-family: "Helvetic Neue", Helvetica, Arial;
 }
 nav{
@@ -35,7 +35,14 @@ nav{
 }
 #left{
   float:left;
-  //width:40%
+  svg{
+    display:inline-block;
+    margin:3px;
+  }
+  ul{
+    float:right;
+  }
+
 }
 #right{
   float:right;
