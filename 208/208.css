@@ -1,0 +1,20 @@
+body {
+  width: 90%;
+  margin: 30px auto; }
+
+form {
+  width: 60%;
+  padding: 20px;
+  font-size: 20px; }
+  form div {
+    width: 100%;
+    margin: 20px; }
+    form div label {
+      width: 65px;
+      display: inline-block; }
+    form div input, form div select {
+      width: 200px;
+      border-radius: 5px;
+      border: 1px solid blue;
+      height: 30px;
+      font-size: 24px; }
