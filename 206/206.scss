@@ -1,0 +1,29 @@
+
+body,html{
+  height:100%;
+  position:relative;
+  background-color: green;
+}
+body{
+  display:flex;
+  font-family: Arial;
+}
+#container{
+  width: 750px;
+  background-color: #b1deff;
+  font-size: 0;
+  margin: auto;
+  vertical-align: middle;
+  div{
+    width:200px;
+    height:200px;
+    margin:25px;
+    display:inline-block;
+    font-size: 30px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    text-transform: capitalize;
+    line-height:195px;
+  }
+}
